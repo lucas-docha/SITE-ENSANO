@@ -1,94 +1,99 @@
 * {
     box-sizing: border-box;
-    
 }
 
 body {
     background-color: whitesmoke;
 }
 
-
 section {
-    background-color: rgb(167, 197, 255);
+    background-color: rgb(188, 209, 252);
     color: rgb(30, 24, 114);
     border-radius: 8px;
     margin-bottom: 12px;
 }
 
-#robo{
+.titulo {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.robo {
     display: flex;
     max-width: 65%;
-    
     padding: 3rem;
 }
 
-.imagem{
+.imagem {
     max-width: 15%;
 }
 
-.imagem img{
+.imagem img {
     max-width: 100%;
 }
 
-.texto{
+.texto {
     padding-left: 5rem;
 }
 
-#produtos{
-    display: flex;
+.produtos {
     max-width: 65%;
-    
-}
-
-.desc{
-    display: flex;
-}
-
-#status{
-    display: flex;
-    max-width: 65%;
-    flex-direction: column;
-}
-
-#pedidos{
-    display: flex;
-    
-    max-width: 65%;
-}
-
-#msg{
-
-}
-
-#trans{
-
-}
-
-.flex{
-    display: flex;
-}
-
-.coisas {
-    display:flex;
-    padding: 1rem;
 }
 
 .produto {
-
+    background-color: floralwhite;
+    padding: 1rem;
+    border-radius: 10px;
+    
 }
 
-.produto img{
-    max-width: 25%;
+.flex img{
+    margin-left: 1.9rem;
 }
 
 .desc {
+    display: flex;
     font-size: 8px;
     display: flex;
     padding-right: 1rem;
 }
 
-.icon img{
+.status {
+    display: flex;
+    max-width: 65%;
+    flex-direction: column;
+}
+
+.pedidos {
+    display: flex;
+    max-width: 65%;
+}
+
+.msg {}
+
+.trans {}
+
+.flex {
+    display: flex;
+}
+
+.coisas {
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+    
+}
+
+.icon img {
     max-width: 20px;
     margin-top: 17px;
+}
 
+.foto{
+    
+    width: fit-content;
+}
+
+.foto img{
+    width: 150px;    
 }
