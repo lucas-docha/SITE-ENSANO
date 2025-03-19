@@ -97,3 +97,80 @@ section {
 .foto img{
     width: 150px;    
 }
+
+.status {
+    padding: 1rem;
+    border-radius: 8px;
+    width: fit-content;
+}
+.entrega {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    background-color: white;
+}
+.barra-status {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+.etapa {
+    padding: 5px 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+.etapa.concluida {
+    background-color: green;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.robo-pedidos {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+.pedidos {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    flex: 1;
+    max-width: 35%;
+    margin-top: 10px;
+    margin-right: 40px;
+    align-items: center;
+}
+
+.pedido {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.status.aprovado {
+    background-color: green;
+    color: white;
+}
+
+.status.pendente {
+    background-color: orange;
+    color: white;
+}
+
+.status.rejeitado {
+    background-color: red;
+    color: white;
+}
+
+.status.processado {
+    background-color: blue;
+    color: white;
+}
